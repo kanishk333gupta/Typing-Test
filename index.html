@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>ES6 Typing Test</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="main.js"></script>
+  </head>
+  <body onload="addWords()">
+    <header>
+      <h3>Typing Test</h3>
+    </header>
+
+    <section id="word-section">
+      <div class="waiting"><p>Loading...</p></div>
+    </section>
+
+    <section id="type-section">
+      <input id="typebox" name="typebox" type="text" tabindex="1" autofocus onkeyup="typingTest(event)"/>
+      <div id="timer" class="type-btn"><span>1:00</span></div>
+      <button id="restart" class="type-btn" tabindex="2" onclick="restartTest()">
+        <span id="restart-symbol">↻</span>
+      </button>
+    </section>
+  </body>
+</html>
