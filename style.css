@@ -98,12 +98,14 @@ section {
 }
 #results #results-stats { font-size: 0.6em; }
 
+
 footer {
   margin-top: 1em;
   text-align: center;
   font-size: 0.8em;
   color: #000;
 }
+
 footer a {
   color: #000;
   text-decoration: none;
